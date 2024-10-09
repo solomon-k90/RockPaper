@@ -1,0 +1,77 @@
+.button{
+    background-color: #2e4b41;
+    border: none;
+    color: rgb(226,36,36);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0  rgba(0, 0, 0, 0.2) 0 6px 28px rgba(0, 0, 0, 0.19);
+    
+} 
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
+.container.btn{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, - 50%);
+    background-color: #f1f11f;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius:5px;
+    text-align: center;
+}
+
+
+.flex-container{
+    display: flex;
+    background-color:white;
+    flex-wrap: wrap;
+    align-items:center;
+    align-content:flex-start;
+    height: 600px;
+}
+.flex-container >div{
+    background-color: dodgerblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    margin: 10px;
+    text-align:center;
+    line-height: 75px;
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+}
+.container.btn:hover{
+    background-color: black;
+    color: #f1f1f1;
+}
+.newspaper{
+    column-count: 4;
+    column-gap:20px;
+    column-rule-color: brown;
+    column-rule-style: dashed;
+    column-width: 100px;
+    column-rule-width:1px;
+}

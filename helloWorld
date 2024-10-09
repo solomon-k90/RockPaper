@@ -1,0 +1,21 @@
+{
+    "cmd": ["node", "$file"],
+    "selector": "source.js"
+}
+console.log("Hello World");
+console.log("This is my first javascript file");
+
+
+console.log(3+2);
+console.log(2+6 /3);
+console.log((3+2) + 6* 3);
+console.log(5%17);
+console.log(10%10);
+console.log(17%5);
+console.log(10%3);
+console.log(50%2); 	
+
+
+
+console.log("Am from the street");
+console.log(3+2);
